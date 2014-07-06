@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		303775ED1968A86600F72ECB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 303775EC1968A86600F72ECB /* Foundation.framework */; };
+		303775EF1968A86600F72ECB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 303775EE1968A86600F72ECB /* CoreGraphics.framework */; };
+		303775F11968A86600F72ECB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 303775F01968A86600F72ECB /* UIKit.framework */; };
+		303775F71968A86600F72ECB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 303775F51968A86600F72ECB /* InfoPlist.strings */; };
+		303775F91968A86600F72ECB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 303775F81968A86600F72ECB /* main.m */; };
+		303775FD1968A86600F72ECB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 303775FC1968A86600F72ECB /* AppDelegate.m */; };
+		303776001968A86600F72ECB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 303775FE1968A86600F72ECB /* Main.storyboard */; };
+		303776031968A86600F72ECB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 303776021968A86600F72ECB /* ViewController.m */; };
+		303776051968A86600F72ECB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 303776041968A86600F72ECB /* Images.xcassets */; };
+		3037760C1968A86600F72ECB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3037760B1968A86600F72ECB /* XCTest.framework */; };
+		3037760D1968A86600F72ECB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 303775EC1968A86600F72ECB /* Foundation.framework */; };
+		3037760E1968A86600F72ECB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 303775F01968A86600F72ECB /* UIKit.framework */; };
+		303776161968A86700F72ECB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 303776141968A86700F72ECB /* InfoPlist.strings */; };
+		303776181968A86700F72ECB /* Parse_Push_Notification_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 303776171968A86700F72ECB /* Parse_Push_Notification_AppTests.m */; };
+		303776241968E72A00F72ECB /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 303776231968E72A00F72ECB /* Parse.framework */; };
+		303776261968E74D00F72ECB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 303776251968E74D00F72ECB /* CoreLocation.framework */; };
+		303776281968E75E00F72ECB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 303776271968E75E00F72ECB /* AudioToolbox.framework */; };
+		3037762A1968E76F00F72ECB /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 303776291968E76F00F72ECB /* CFNetwork.framework */; };
+		3037762C1968E79900F72ECB /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3037762B1968E79900F72ECB /* libz.dylib */; };
+		3037762E1968E7A200F72ECB /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3037762D1968E7A200F72ECB /* MobileCoreServices.framework */; };
+		303776301968E7AA00F72ECB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3037762F1968E7AA00F72ECB /* QuartzCore.framework */; };
+		303776321968E7B100F72ECB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 303776311968E7B100F72ECB /* Security.framework */; };
+		303776341968E7B800F72ECB /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 303776331968E7B800F72ECB /* StoreKit.framework */; };
+		303776361968E7C400F72ECB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 303776351968E7C400F72ECB /* SystemConfiguration.framework */; };
+		303776391968ED7400F72ECB /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 303776381968ED7400F72ECB /* Constants.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3037760F1968A86700F72ECB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 303775E11968A86600F72ECB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 303775E81968A86600F72ECB;
+			remoteInfo = "Parse Push Notification App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		303775E91968A86600F72ECB /* Parse Push Notification App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Parse Push Notification App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		303775EC1968A86600F72ECB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		303775EE1968A86600F72ECB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		303775F01968A86600F72ECB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		303775F41968A86600F72ECB /* Parse Push Notification App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Parse Push Notification App-Info.plist"; sourceTree = "<group>"; };
+		303775F61968A86600F72ECB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		303775F81968A86600F72ECB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		303775FA1968A86600F72ECB /* Parse Push Notification App-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Parse Push Notification App-Prefix.pch"; sourceTree = "<group>"; };
+		303775FB1968A86600F72ECB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		303775FC1968A86600F72ECB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		303775FF1968A86600F72ECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		303776011968A86600F72ECB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		303776021968A86600F72ECB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		303776041968A86600F72ECB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3037760A1968A86600F72ECB /* Parse Push Notification AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Parse Push Notification AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3037760B1968A86600F72ECB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		303776131968A86700F72ECB /* Parse Push Notification AppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Parse Push Notification AppTests-Info.plist"; sourceTree = "<group>"; };
+		303776151968A86700F72ECB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		303776171968A86700F72ECB /* Parse_Push_Notification_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Parse_Push_Notification_AppTests.m; sourceTree = "<group>"; };
+		303776231968E72A00F72ECB /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		303776251968E74D00F72ECB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		303776271968E75E00F72ECB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		303776291968E76F00F72ECB /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		3037762B1968E79900F72ECB /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		3037762D1968E7A200F72ECB /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		3037762F1968E7AA00F72ECB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		303776311968E7B100F72ECB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		303776331968E7B800F72ECB /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		303776351968E7C400F72ECB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		303776371968ED7400F72ECB /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		303776381968ED7400F72ECB /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		303775E61968A86600F72ECB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				303776361968E7C400F72ECB /* SystemConfiguration.framework in Frameworks */,
+				303776341968E7B800F72ECB /* StoreKit.framework in Frameworks */,
+				303776321968E7B100F72ECB /* Security.framework in Frameworks */,
+				303776301968E7AA00F72ECB /* QuartzCore.framework in Frameworks */,
+				3037762E1968E7A200F72ECB /* MobileCoreServices.framework in Frameworks */,
+				3037762C1968E79900F72ECB /* libz.dylib in Frameworks */,
+				303776261968E74D00F72ECB /* CoreLocation.framework in Frameworks */,
+				303775EF1968A86600F72ECB /* CoreGraphics.framework in Frameworks */,
+				3037762A1968E76F00F72ECB /* CFNetwork.framework in Frameworks */,
+				303776281968E75E00F72ECB /* AudioToolbox.framework in Frameworks */,
+				303775F11968A86600F72ECB /* UIKit.framework in Frameworks */,
+				303776241968E72A00F72ECB /* Parse.framework in Frameworks */,
+				303775ED1968A86600F72ECB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		303776071968A86600F72ECB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3037760C1968A86600F72ECB /* XCTest.framework in Frameworks */,
+				3037760E1968A86600F72ECB /* UIKit.framework in Frameworks */,
+				3037760D1968A86600F72ECB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		303775E01968A86600F72ECB = {
+			isa = PBXGroup;
+			children = (
+				303775F21968A86600F72ECB /* Parse Push Notification App */,
+				303776111968A86700F72ECB /* Parse Push Notification AppTests */,
+				303775EB1968A86600F72ECB /* Frameworks */,
+				303775EA1968A86600F72ECB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		303775EA1968A86600F72ECB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				303775E91968A86600F72ECB /* Parse Push Notification App.app */,
+				3037760A1968A86600F72ECB /* Parse Push Notification AppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		303775EB1968A86600F72ECB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				303776351968E7C400F72ECB /* SystemConfiguration.framework */,
+				303776331968E7B800F72ECB /* StoreKit.framework */,
+				303776311968E7B100F72ECB /* Security.framework */,
+				3037762F1968E7AA00F72ECB /* QuartzCore.framework */,
+				3037762D1968E7A200F72ECB /* MobileCoreServices.framework */,
+				3037762B1968E79900F72ECB /* libz.dylib */,
+				303776291968E76F00F72ECB /* CFNetwork.framework */,
+				303776271968E75E00F72ECB /* AudioToolbox.framework */,
+				303776251968E74D00F72ECB /* CoreLocation.framework */,
+				303776231968E72A00F72ECB /* Parse.framework */,
+				303775EC1968A86600F72ECB /* Foundation.framework */,
+				303775EE1968A86600F72ECB /* CoreGraphics.framework */,
+				303775F01968A86600F72ECB /* UIKit.framework */,
+				3037760B1968A86600F72ECB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		303775F21968A86600F72ECB /* Parse Push Notification App */ = {
+			isa = PBXGroup;
+			children = (
+				303775FB1968A86600F72ECB /* AppDelegate.h */,
+				303775FC1968A86600F72ECB /* AppDelegate.m */,
+				303775FE1968A86600F72ECB /* Main.storyboard */,
+				303776371968ED7400F72ECB /* Constants.h */,
+				303776381968ED7400F72ECB /* Constants.m */,
+				303776011968A86600F72ECB /* ViewController.h */,
+				303776021968A86600F72ECB /* ViewController.m */,
+				303776041968A86600F72ECB /* Images.xcassets */,
+				303775F31968A86600F72ECB /* Supporting Files */,
+			);
+			path = "Parse Push Notification App";
+			sourceTree = "<group>";
+		};
+		303775F31968A86600F72ECB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				303775F41968A86600F72ECB /* Parse Push Notification App-Info.plist */,
+				303775F51968A86600F72ECB /* InfoPlist.strings */,
+				303775F81968A86600F72ECB /* main.m */,
+				303775FA1968A86600F72ECB /* Parse Push Notification App-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		303776111968A86700F72ECB /* Parse Push Notification AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				303776171968A86700F72ECB /* Parse_Push_Notification_AppTests.m */,
+				303776121968A86700F72ECB /* Supporting Files */,
+			);
+			path = "Parse Push Notification AppTests";
+			sourceTree = "<group>";
+		};
+		303776121968A86700F72ECB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				303776131968A86700F72ECB /* Parse Push Notification AppTests-Info.plist */,
+				303776141968A86700F72ECB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		303775E81968A86600F72ECB /* Parse Push Notification App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3037761B1968A86700F72ECB /* Build configuration list for PBXNativeTarget "Parse Push Notification App" */;
+			buildPhases = (
+				303775E51968A86600F72ECB /* Sources */,
+				303775E61968A86600F72ECB /* Frameworks */,
+				303775E71968A86600F72ECB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Parse Push Notification App";
+			productName = "Parse Push Notification App";
+			productReference = 303775E91968A86600F72ECB /* Parse Push Notification App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		303776091968A86600F72ECB /* Parse Push Notification AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3037761E1968A86700F72ECB /* Build configuration list for PBXNativeTarget "Parse Push Notification AppTests" */;
+			buildPhases = (
+				303776061968A86600F72ECB /* Sources */,
+				303776071968A86600F72ECB /* Frameworks */,
+				303776081968A86600F72ECB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				303776101968A86700F72ECB /* PBXTargetDependency */,
+			);
+			name = "Parse Push Notification AppTests";
+			productName = "Parse Push Notification AppTests";
+			productReference = 3037760A1968A86600F72ECB /* Parse Push Notification AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		303775E11968A86600F72ECB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Danny;
+				TargetAttributes = {
+					303775E81968A86600F72ECB = {
+						DevelopmentTeam = 99QZ248F84;
+					};
+					303776091968A86600F72ECB = {
+						TestTargetID = 303775E81968A86600F72ECB;
+					};
+				};
+			};
+			buildConfigurationList = 303775E41968A86600F72ECB /* Build configuration list for PBXProject "Parse Push Notification App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 303775E01968A86600F72ECB;
+			productRefGroup = 303775EA1968A86600F72ECB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				303775E81968A86600F72ECB /* Parse Push Notification App */,
+				303776091968A86600F72ECB /* Parse Push Notification AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		303775E71968A86600F72ECB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				303776051968A86600F72ECB /* Images.xcassets in Resources */,
+				303775F71968A86600F72ECB /* InfoPlist.strings in Resources */,
+				303776001968A86600F72ECB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		303776081968A86600F72ECB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				303776161968A86700F72ECB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		303775E51968A86600F72ECB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				303776031968A86600F72ECB /* ViewController.m in Sources */,
+				303775FD1968A86600F72ECB /* AppDelegate.m in Sources */,
+				303775F91968A86600F72ECB /* main.m in Sources */,
+				303776391968ED7400F72ECB /* Constants.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		303776061968A86600F72ECB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				303776181968A86700F72ECB /* Parse_Push_Notification_AppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		303776101968A86700F72ECB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 303775E81968A86600F72ECB /* Parse Push Notification App */;
+			targetProxy = 3037760F1968A86700F72ECB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		303775F51968A86600F72ECB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				303775F61968A86600F72ECB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		303775FE1968A86600F72ECB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				303775FF1968A86600F72ECB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		303776141968A86700F72ECB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				303776151968A86700F72ECB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		303776191968A86700F72ECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development IOS Push Services: DG.Parse-Push-Notification-App";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development IOS Push Services: DG.Parse-Push-Notification-App";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3037761A1968A86700F72ECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development IOS Push Services: DG.Parse-Push-Notification-App";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development IOS Push Services: DG.Parse-Push-Notification-App";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3037761C1968A86700F72ECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Parse Push Notification App/Parse Push Notification App-Prefix.pch";
+				INFOPLIST_FILE = "Parse Push Notification App/Parse Push Notification App-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3037761D1968A86700F72ECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Parse Push Notification App/Parse Push Notification App-Prefix.pch";
+				INFOPLIST_FILE = "Parse Push Notification App/Parse Push Notification App-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3037761F1968A86700F72ECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Parse Push Notification App.app/Parse Push Notification App";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Parse Push Notification App/Parse Push Notification App-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Parse Push Notification AppTests/Parse Push Notification AppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		303776201968A86700F72ECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Parse Push Notification App.app/Parse Push Notification App";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Parse Push Notification App/Parse Push Notification App-Prefix.pch";
+				INFOPLIST_FILE = "Parse Push Notification AppTests/Parse Push Notification AppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		303775E41968A86600F72ECB /* Build configuration list for PBXProject "Parse Push Notification App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				303776191968A86700F72ECB /* Debug */,
+				3037761A1968A86700F72ECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3037761B1968A86700F72ECB /* Build configuration list for PBXNativeTarget "Parse Push Notification App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3037761C1968A86700F72ECB /* Debug */,
+				3037761D1968A86700F72ECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3037761E1968A86700F72ECB /* Build configuration list for PBXNativeTarget "Parse Push Notification AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3037761F1968A86700F72ECB /* Debug */,
+				303776201968A86700F72ECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 303775E11968A86600F72ECB /* Project object */;
+}
